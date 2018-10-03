@@ -158,6 +158,12 @@ label{
 input{
 	padding:0.4rem;
 }
+.mensagem {
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	height:80vh;
+}
 @media screen and (min-width:720px){
 	header{
 		flex-direction:row;
