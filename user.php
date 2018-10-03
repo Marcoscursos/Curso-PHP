@@ -33,19 +33,19 @@
 						<img src="https://cdn0.froala.com/assets/editor/docs/server/meta-social/php-00441489844a0103eae71ba2fe15244c.png">
 					</div>
 					<div class="user_name">
-						<h1>@Marcos Lopes</h1>
+						<h1>@PHP IFMS DOURADOS</h1>
 						<span>Postado em 02/10/2018</span>
 					</div>
 				</div>
 				<div class="corpo_publicação">
-					<p>PHP linguagem de programação WEB</p>
+					<p>'.$registros[2].'</p>
 					<div class="foto_publicação">
-						<img src="https://becode.com.br/wp-content/uploads/2017/09/php-post-1.png">
+						<img src="'.$registros[3].'">
 					</div>
 				</div>
 				<div >
-					<a href="index.php?Request=editar&id='.$id.'"><button>Editar publicação</button></a>
-					<a href="index.php?Request=deletar&id='.$id.'&img='.$foto.'"><button>Deletar publicação</button></a>
+					<a href="user.php?Request=editar_postagem&id_postagem='.$registros[0].'"><button>Editar publicação</button></a>
+					<a href="user.php?Request=Deletar_postagem&id_postagem='.$registros[0].'&img='.$registros[3].'"><button>Deletar publicação</button></a>
 				</div>
 			</div>
 			</section>
