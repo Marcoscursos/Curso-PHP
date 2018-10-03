@@ -87,6 +87,9 @@
 						</form>
 					</div>
 			</section>
+				<div class='mensagem'>
+					<img src='http://dicasblogin.com/wp-content/uploads/2015/07/404-5B1-5D.png'>
+				<div>
 	</main>
 </body>
 </html>
